@@ -1,5 +1,5 @@
 import 'dart:html';
-import 'package:app_jogo/app/app_bloc.dart';
+import 'pages/home/home_module.dart';
 import 'package:app_jogo/app/app_widget.dart';
 import 'package:app_jogo/app/pages/home/widgets/snake/snake_bloc.dart';
 import 'package:flutter/material.dart';

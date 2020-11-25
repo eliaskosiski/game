@@ -2,8 +2,6 @@ import 'dart:math';
 import 'package:app_jogo/app/shared/models/food_model.dart';
 import 'package:app_jogo/app/shared/models/position_model.dart';
 import 'package:app_jogo/app/shared/models/snake_model.dart';
-import 'package:bloc_pattern/bloc_pattern.dart';
-import 'package:rxdart/rxdart.dart';
 
 
 
@@ -41,7 +39,6 @@ class SnakeBloc extends AppBloc {
   Sink<List<FoodModel>> foodIn;
   List<FoodModel> get foodsValue => foods.value;
 
-//FUCNTIONS FOOD
 
 //FUNCTIONS SNAKE
   updatePosition(PositionModel pos) {
